@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Not Defteri</string>
+    <string name="gorunum">Görünüm</string>
+    <string name="gorunumaciklama">Görünümü buradan değiştirebilirsiniz.</string>
+    <string name="ayarlar">Ayarlar</string>
+    <string name="hakkinda">Hakkında</string>
+    <string name="addtitle">Başlık</string>
+    <string name="duzenle">Düzenle</string>
+    <string name="sil">Sil</string>
+    <string name="notekle">Not Ekle</string>
+    <string name="not">Not</string>
+    <string name="kaydedilmistir">Kaydedildi</string>
+    <string name="kaydetme">Kaydetme</string>
+    <string name="toasthakkinda">M. Erim Tuzcuoğlu \ngithub.com/Er1m </string>
+    <string name="duzenlendi">Kaydet</string>
+    <string name="silinsinmi">Öge silinsin mi?</string>
+    <string name="evet">Evet</string>
+    <string name="hayır">Hayır</string>
+
+    <string-array name="entryler">
+        <item>Liste Görünüm</item>
+        <item>Izgara Görünüm</item>
+    </string-array>
+</resources>

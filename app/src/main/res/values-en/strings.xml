@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Notepad</string>
+    <string name="gorunum">View</string>
+    <string name="gorunumaciklama">You can change view from here.</string>
+    <string name="ayarlar">Settings</string>
+    <string name="hakkinda">About</string>
+    <string name="addtitle">Title</string>
+    <string name="duzenle">Edit</string>
+    <string name="sil">Delete</string>
+    <string name="notekle">Add Note</string>
+    <string name="not">Note</string>
+    <string name="kaydedilmistir">Saved</string>
+    <string name="kaydetme">Dont Save</string>
+    <string name="toasthakkinda">M. Erim Tuzcuoğlu \ngithub.com/Er1m </string>
+    <string name="duzenlendi">Save</string>
+    <string name="silinsinmi">Do you really want to delete this item?</string>
+    <string name="evet">Yes</string>
+    <string name="hayır">No</string>
+
+    <string-array name="entryler">
+        <item>List View</item>
+        <item>Grid View</item>
+    </string-array>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_note"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.erim.takenote.AddNote"
+    android:background="@color/background">
+
+    <include layout="@layout/toolbar_layout"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/asLinear"
+        android:layout_marginTop="@dimen/twenty"
+        android:layout_marginLeft="@dimen/eight"
+        android:layout_marginRight="@dimen/eight"
+        android:layout_below="@+id/toolbar"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/addtitle"
+            android:id="@+id/asTitle"
+            android:layout_weight="9" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/eight"
+            android:visibility="invisible"
+            android:text="dfgdfg"
+            android:id="@+id/asDate"/>
+    </LinearLayout>
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:hint="@string/not"
+        android:id="@+id/asNote"
+        android:layout_below="@+id/asLinear"
+        android:layout_marginTop="@dimen/twenty"
+        android:layout_marginLeft="@dimen/eight"
+        android:layout_marginRight="@dimen/eight"/>
+
+
+
+
+
+</RelativeLayout>

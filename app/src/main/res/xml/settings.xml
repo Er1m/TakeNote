@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/ayarlar"
+    android:key="preferencescreen">
+
+    <PreferenceCategory android:title="@string/ayarlar"></PreferenceCategory>
+
+    <ListPreference
+        android:key="gorunum"
+        android:title="@string/gorunum"
+        android:summary="@string/gorunumaciklama"
+        android:entries="@array/entryler"
+        android:entryValues="@array/entryler"/>
+</PreferenceScreen>
